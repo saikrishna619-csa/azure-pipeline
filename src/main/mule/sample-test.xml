@@ -15,7 +15,7 @@ http://www.mulesoft.org/schema/mule/crypto http://www.mulesoft.org/schema/mule/c
 		<ee:transform doc:name="Transform Message" doc:id="df7f8b8d-6de0-4051-b401-cf1af0d3794c" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
-output application/xml
+output application/json
 ---
 payload]]></ee:set-payload>
 			</ee:message>
